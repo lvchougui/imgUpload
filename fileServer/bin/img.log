@@ -1,0 +1,203 @@
+nohup: ignoring input
+Express server listening on port 4000
+Fri, 09 Sep 2016 03:28:20 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at ../app.js:35:35
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m4.243 ms - 242[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m1.579 ms - 184[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.521 ms - 126[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m1.056 ms - 126[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.470 ms - 11[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.451 ms - 68[0m
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.946 ms - 68[0m
+[0mGET /detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg [33m404 [0m0.351 ms - 68[0m
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.355 ms - 68[0m
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.433 ms - 68[0m
+[0mGET /favicon.ico [33m404 [0m0.347 ms - 24[0m
+[0mGET /favicon.ico [33m404 [0m0.277 ms - 24[0m
+[0mGET / [33m404 [0m0.322 ms - 13[0m
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.569 ms - 68[0m
+[0mGET /detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg [33m404 [0m0.172 ms - 68[0m
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.301 ms - 68[0m
+[0mGET /detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg [33m404 [0m0.188 ms - 68[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.493 ms - 68[0m
+{ data: [ 'detailImg/16-09-09/3f3fa5cfc66d640efc336c74f7409c3d.jpg' ] }
+detailImg/16-09-09/3f3fa5cfc66d640efc336c74f7409c3d.jpg
+[0mPOST /api/attachment/del [32m200 [0m10.683 ms - 9[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.521 ms - 416[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.508 ms - 416[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.622 ms - 532[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.962 ms - 532[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.793 ms - 532[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.415 ms - 11[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m1.186 ms - 532[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.535 ms - 416[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.748 ms - 184[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.554 ms - 242[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.706 ms - 242[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.580 ms - 68[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.497 ms - 68[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.566 ms - 68[0m
+[0mPOST /api/attachment/upload [31m500 [0m2.949 ms - 1255[0m
+TypeError: Cannot read property 'length' of undefined
+    at Object.attachmentDao.create (/usr/local/nodeSer/img/fileServer/api/attachments/attachmentModel.js:22:65)
+    at module.exports (/usr/local/nodeSer/img/fileServer/api/attachments/router.js:9:23)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at next (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at /usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:321:12)
+    at next (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:261:10)
+    at Function.proto.handle (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:166:3)
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.914 ms - 68[0m
+[0mGET /detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg [33m404 [0m0.289 ms - 68[0m
+[0mGET /detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg [33m404 [0m0.319 ms - 68[0m
+[0mGET /detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg [33m404 [0m0.190 ms - 68[0m
+{ data: 
+   [ 'detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg',
+     'detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg' ] }
+detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg
+[0mPOST /api/attachment/del [31m500 [0m2.001 ms - 1137[0m
+Error: ENOENT, no such file or directory '../public/detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg'
+    at Object.fs.unlinkSync (fs.js:772:18)
+    at /usr/local/nodeSer/img/fileServer/api/attachments/router.js:34:12
+    at Array.forEach (native)
+    at module.exports (/usr/local/nodeSer/img/fileServer/api/attachments/router.js:32:19)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at next (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at /usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:321:12)
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.593 ms - 126[0m
+{ data: 
+   [ 'detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg',
+     'detailImg/16-08-24/e23f922349b085a25e58bd384937ae7e.jpg' ] }
+detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg
+[0mPOST /api/attachment/del [31m500 [0m1.334 ms - 1137[0m
+Error: ENOENT, no such file or directory '../public/detailImg/16-08-24/f4ef409c48ed0a7dafbf28a63d4082a8.jpg'
+    at Object.fs.unlinkSync (fs.js:772:18)
+    at /usr/local/nodeSer/img/fileServer/api/attachments/router.js:34:12
+    at Array.forEach (native)
+    at module.exports (/usr/local/nodeSer/img/fileServer/api/attachments/router.js:32:19)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at next (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at /usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:321:12)
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.479 ms - 11[0m
+[0mGET /924fbd71f78837cbc0955afa3.jpg [33m404 [0m0.306 ms - 42[0m
+[0mGET /5641afaca2d9f3f9287164dd2.jpg [33m404 [0m0.181 ms - 42[0m
+[0mGET /5641afaca2d9f3f9287164dd2.jpg [33m404 [0m0.283 ms - 42[0m
+[0mGET /924fbd71f78837cbc0955afa3.jpg [33m404 [0m0.169 ms - 42[0m
+[0mGET /5641afaca2d9f3f9287164dd2.jpg [33m404 [0m0.954 ms - 42[0m
+[0mGET /924fbd71f78837cbc0955afa3.jpg [33m404 [0m0.371 ms - 42[0m
+[0mGET /5641afaca2d9f3f9287164dd2.jpg [33m404 [0m0.308 ms - 42[0m
+[0mGET /924fbd71f78837cbc0955afa3.jpg [33m404 [0m0.170 ms - 42[0m
+{ data: 
+   [ '5641afaca2d9f3f9287164dd2.jpg',
+     '5641afaca2d9f3f9287164dd2.jpg' ] }
+5641afaca2d9f3f9287164dd2.jpg
+[0mPOST /api/attachment/del [31m500 [0m1.404 ms - 1111[0m
+Error: ENOENT, no such file or directory '../public/5641afaca2d9f3f9287164dd2.jpg'
+    at Object.fs.unlinkSync (fs.js:772:18)
+    at /usr/local/nodeSer/img/fileServer/api/attachments/router.js:34:12
+    at Array.forEach (native)
+    at module.exports (/usr/local/nodeSer/img/fileServer/api/attachments/router.js:32:19)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at next (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/layer.js:82:5)
+    at /usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:267:22
+    at Function.proto.process_params (/usr/local/nodeSer/img/fileServer/node_modules/express/lib/router/index.js:321:12)
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.812 ms - 358[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m1.434 ms - 474[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m3.137 ms - 532[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.777 ms - 300[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.809 ms - 300[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.673 ms - 300[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.346 ms - 11[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.826 ms - 11[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.829 ms - 300[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.891 ms - 242[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.571 ms - 184[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.548 ms - 242[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.676 ms - 68[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.337 ms - 68[0m
+===> attachment upload :
+
+[0mPOST /api/attachment/upload [32m200 [0m0.311 ms - 68[0m
